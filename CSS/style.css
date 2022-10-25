@@ -63,7 +63,7 @@
 
 #portfolio {
     /* DEBUG */
-    min-height: 2500px;
+    min-height: 2000px;
 }
 
 #about {
@@ -79,16 +79,24 @@
     }
     
     #portfolio .row {
-        min-height: 2500px;
+        /* min-height: 900px; */
         margin-bottom: 50px;
     }
 
     [class*="col"] {
         /* DEBUG */
-        height: 400px;
-        background-color: #ba4b63;
-        border-radius: 20px;
+        height: 300px;
+        /* border-radius: 20px; */
+        /* border: 1px dashed #000; */
     }
+
+        .icon {
+            /* DEBUG */
+            background-color: #ba4b63;
+            min-height: 100%;
+            border-radius: 20px;
+        }
+
 /* Responsive */
 
 /* Tablet version */
@@ -111,12 +119,12 @@
     /* Main */
 
     #portfolio {
-        min-height: 1200px;
+        min-height: 1000px;
     }
     
     #portfolio .row {
         width: 100%;
-        min-height: 1200px;
+        /* min-height: 1200px; */
     }
 
     #portfolio .container {
@@ -138,12 +146,12 @@
     /* Main */
 
     #portfolio {
-        min-height: 800px;
+        min-height: 700px;
     }
 
     #portfolio .row {
         width: 100%;
-        min-height: 800px;
+        /* min-height: 800px; */
     }
 
     #portfolio .container {
