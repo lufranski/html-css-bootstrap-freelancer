@@ -17,8 +17,48 @@
         height: 100px;
     }
     
-        #top-nav .row div {
+        #logo {
             /* DEBUG */
-            border: 1px dashed #fff;
+            width: 40%;
             min-height: 40px;
+            border: 1px dashed #fff;
         }
+
+        #burger_menu {
+            /* DEBUG */
+            width: 10%;
+            min-height: 40px;
+            border: 1px dashed #fff;
+        }
+
+        #menu {
+            /* DEBUG */
+            display: none;
+            width: 40%;
+            min-height: 40px;
+            border: 1px dashed #fff;
+        }
+
+/* Responsive */
+
+/* Tablet version */
+@media screen and (min-width: 768px) {
+    #burger_menu {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+}
+
+/* Desktop version */
+@media screen and (min-width: 992px) {
+    .row {
+        justify-content: space-evenly;
+    }
+
+    #logo,#menu {
+        width: 30%;
+    }
+}
