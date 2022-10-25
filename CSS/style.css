@@ -69,10 +69,10 @@
 #about {
     background-color: #1abc9c;
     /* DEBUG */
-    min-height: 100px;
+    min-height: 500px;
 }
 
-    /* Porfolio Rules */
+    /* Porfolio Section Rules */
     
     #portfolio .container {
         padding-top: 40px;
@@ -95,6 +95,22 @@
             background-color: #ba4b63;
             min-height: 100%;
             border-radius: 20px;
+        }
+
+    
+    /* About Section Rules */
+    
+    #about .container {
+        /* DEBUG */
+        width: 60%;
+        padding-top: 50px;
+        height: 500px;
+    }
+
+        #about_freelancer {
+            /* DEBUG */
+            height: 90%;
+            border: 1px dashed #fff;
         }
 
 /* Responsive */
