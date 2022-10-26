@@ -48,15 +48,9 @@
 
 /* Main Rules */
 
-#portfolio {
-    /* DEBUG */
-    /* min-height: 1700px; */
-}
 
 #about {
     background-color: #1abc9c;
-    /* DEBUG */
-    min-height: 500px;
 }
 
 #contact {
@@ -70,17 +64,6 @@
         padding-top: 40px;
     }
     
-    #portfolio .row {
-        /* min-height: 900px; */
-        margin-bottom: 50px;
-    }
-
-    .col_icon {
-        /* DEBUG */
-        /* height: 300px; */
-        /* border-radius: 20px; */
-        /* border: 1px dashed #000; */
-    }
 
             .icon img {
                 max-width: 100%;
@@ -104,20 +87,8 @@
     /* About Section Rules */
     
     #about .container {
-        /* DEBUG */
         width: 60%;
-        padding-top: 50px;
-        height: 500px;
     }
-
-        #about_freelancer {
-            /* DEBUG */
-            height: 90%;
-            border: 1px dashed #fff;
-        }
-
-
-            #about_freelancer h2 
 
     
     /* Contact Section Rules */
