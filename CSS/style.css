@@ -1,63 +1,50 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Header Rules */
 /* Nav Rules */
-#top-nav {
+#top_nav {
     background-color: #2c3e50;
     width: 100%;
     height: 100px;
-    position: fixed;
-    z-index: 999;
 }
 
-    .row {
-        /* DEBUG */
-        height: 100px;
-    }
+
     
-        #logo {
-            /* DEBUG */
-            width: 40%;
-            min-height: 40px;
-            border: 1px dashed #fff;
-        }
-
-        #burger_menu {
-            /* DEBUG */
-            width: 10%;
-            min-height: 40px;
-            border: 1px dashed #fff;
-        }
-
-        #menu {
-            /* DEBUG */
-            display: none;
-            width: 40%;
-            min-height: 40px;
-            border: 1px dashed #fff;
-        }
 
 /* Hero Rules */
 #hero {
     background-color: #1abc9c;
-    height: 600px;    
+    height: 500px;
+    margin-top: 100px;    
 }
 
-    #hero .container-md {
-        /* DEBUG */
-        height: 100%;
-        padding-top: 60px;
-    }
+    
 
         #bio {
-            /* DEBUG */
             margin-top: 50px;
-            border: 1px dashed #fff;
-            min-height: 85%;
         }
+
+            #avatar {
+                max-height: 300px;
+            }
+
+            .h1 {
+                font-size: 40px;
+            }
+
+            .ms_line {
+                height: 3px;
+                width: 80px;
+                background-color: #fff;
+            }
+
+            #bio svg {
+                width: 30px;
+            }
 
 /* Main Rules */
 
@@ -178,19 +165,6 @@
 /* Tablet version */
 @media screen and (min-width: 768px) {
     
-    /* Header */
-    
-    #burger_menu {
-        display: none;
-    }
-
-    #menu {
-        display: block;
-    }
-
-    #hero .container-md {
-        width: 60%;
-    }
 
     /* Main */
 
